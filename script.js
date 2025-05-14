@@ -241,3 +241,61 @@
 //         break;
 //     case (n2 > n1):
 //         console.
+
+
+// ----------------------------
+// Question 18:
+// Even or odd using switch.
+
+// var number18 = prompt("Enter a number:");
+// switch (number18 % 2) {
+//     case 0:
+//         console.log("Even");
+//         break;
+//     default:
+//         console.log("Odd");
+// }
+
+
+// ----------------------------
+// Question 19:
+// Positive, Negative or Zero using switch.
+
+// var number19 = prompt("Enter a number:");
+// switch (true) {
+//     case (number19 > 0):
+//         console.log("Positive");
+//         break;
+//     case (number19 < 0):
+//         console.log("Negative");
+//         break;
+//     case (number19 == 0):
+//         console.log("Zero");
+//         break;
+// }
+
+
+// ----------------------------
+// Question 20:
+// Simple calculator using switch.
+
+// var numA = prompt("Enter first number:");
+// var numB = prompt("Enter second number:");
+// var op = prompt("Enter operator (+, -, *, /):");
+
+// switch (op) {
+//     case "+":
+//         console.log(Number(numA) + Number(numB));
+//         break;
+//     case "-":
+//         console.log(Number(numA) - Number(numB));
+//         break;
+//     case "*":
+//         console.log(Number(numA) * Number(numB));
+//         break;
+//     case "/":
+//         console.log(Number(numA) / Number(numB));
+//         break;
+//     default:
+//         console.log("Invalid operator");
+// }
